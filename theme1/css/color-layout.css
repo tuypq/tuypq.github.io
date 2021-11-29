@@ -1,0 +1,80 @@
+.ts-footer {
+    background: #001e42!important;
+}
+.copyright-text p {
+    color: #ffffff!important;
+}
+/* .header-middle.v2 {
+    background: #064084ed!important;
+} */
+/* .navbar-standerd.nav-bar-dark .navigation {
+    background: #005495!important;
+} */
+
+.ts-overlay-style .item:before {
+    
+    background: linear-gradient(to bottom, rgb(0 30 66 / 80%) 55%, rgba(0, 30, 66, 0.8) 55%)!important;
+}
+
+.hot-description h3 {
+    color: #064084ed!important;
+}
+.ts-title-item h2 {
+    color: #001e42!important;
+}
+.post-title a {
+    color: #0076bc!important;
+}
+
+.post-title-nuce-news-02 a {
+    color: #001e42!important;
+}
+.post-content p {
+    color: #a30713!important;
+}
+.ts-overlay-style .overlay-post-content .post-title a {
+	color: white!important;
+}
+
+.post-title-nuce-news-03 a {
+    color: #001e42!important;
+}
+.post-cat-nuce-news-03 {
+    
+    color: #9F9F9F!important;
+}
+
+
+.footer-section {
+	padding-bottom: 0px!important;
+	background: #002a5c!important;
+}
+.btn.btn-primary {
+    background: #a30713;
+}
+.hot-description h3 {
+    font-size: 18px!important;
+}
+.nuce-news-btn-readmore {
+    
+    color: #0076bc!important;
+}
+.title-lienketnhanh {
+    color: #0076bc!important;
+    font-size: 22px!important;
+}
+.hot-topics-heighlight {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    padding-top:24px!important;
+    padding-bottom:24px!important;
+    background: #EEEEEE;
+}
+.ts-title-item h2 p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #002147;
+    text-transform: uppercase;
+    color: #a30713!important;
+
+}

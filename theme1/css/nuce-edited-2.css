@@ -1,0 +1,15 @@
+.container-nuce-news .nav-search-close-button {
+    color: #000000;
+}
+
+.navbar-standerd .nav-bar-dark .navigation .right-menu li .clear-bug:before {
+    position: static;
+}
+
+.submenu-indicator-up .submenu-indicator-chevron {
+    top: -30px;
+}
+
+.ts-overlay-style .overlay-post-content .post-content {
+    margin-bottom: 0;
+}
