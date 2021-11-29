@@ -1878,3 +1878,11 @@
  height: 120px;
  width: auto !important;
 }
+@media (max-width: 542px) {
+    .footer-logo-side .logo-text h3{
+        font-size: 11px !important;
+    }
+    .footer-logo-side .logo-text h4{
+        font-size: 11px !important;
+    }
+}
