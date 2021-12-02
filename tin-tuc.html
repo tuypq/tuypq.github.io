@@ -86,307 +86,192 @@
 </head>
 
 <body>
-    <div id="SectionHeader">
-        <!-- [Header1] -->
+    <header id="header" class="header has-sticky sticky-jump">
+        <div class="header-wrapper">
+            <div id="masthead" class="header-main nav-dark">
+                <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
 
-        <!-- top header nav start-->
-        <!-- top header nav start-->
-        <section class="header-middle v2">
-            <!--nav top end
-    <div class="announcement-bar">
-        <i class="fa fa-bell" aria-hidden="true"></i><span>
-            Cổng thông tin Trường ĐHXD Hà Nội, giao diện đang trong giai đoạn thử nghiệm mọi góp ý xin gửi về tttt@nuce.edu.vn
-        </span>
-    </div>-->
-            <div class="container container-nuce-news">
-
-                <div class="ts-main-menu logo-pc navigation-landscape" style="height: 100px;">
-                    <div class="row" style="display: block;">
-                        <div class="nav-header">
-                            <a class="nav-brand" href="index.html" style="display: flex;">
-                                <img src="theme1/images/logo/logo_trans.png">
-                                <div class="logo-text">
-                                    <h3 style="
-    margin-bottom: 0px;
-    margin-top: 7px;
-    font-family: myriadpro-semibold;
-    letter-spacing: 0.5px;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-">Phòng Công tác Chính trị và Quản lý Sinh viên</h3>
-                                    <h4 style="
-    font-size: 19px;
-    letter-spacing: 0.5px;
-    font-family: 'myriadpro-semibold';
-">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</h4>
-                                </div>
+                    <!-- Logo -->
+                    <div id="logo" class="flex-col logo">
+                        <!-- Header logo -->
+                        <a href="https://ctsv.ntt.edu.vn/"
+                            title="Phòng Công tác sinh viên – Trường ĐH Nguyễn Tất Thành - Phòng Công tác sinh viên – Trường ĐH Nguyễn Tất Thành"
+                            rel="home">
+                        <img style="margin-right: 10px;width: 60px; height: 60px; float: left;"
+                                src="theme1/images/logo/LOGO_DHXD (1).png"
+                                class="header-logo-dark"
+                                alt="   ">
+                              
+                                <h3 style="
+                                color: #002147;
+                                text-align: left;
+                                margin-bottom: 0px;
+                                padding-top: 10px;
+                                font-family: myriadpro-semibold;
+                                font-size: 13px;
+                                line-height: 20px;
+                                letter-spacing: 0.5px;
+                            ">Phòng Công tác Chính trị và Quản lý Sinh viên</h3>
+                              <h4 style="
+                              text-align: left;color: #002a5c;
+                              font-size: 13px;
+                              line-height: 20px;
+                              letter-spacing: 0.5px;
+                              font-family: 'myriadpro-semibold';
+                          ">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</h4>
                             </a>
-                        </div>
-                        <ul class="right-menu align-to-right">
-                            <li class="header-search">
-                                <div class="nav-search-nuce">
-                                    <div class="search-box">
-                                        <form class="search-form" action="/search">
-                                            <input class="search-input" type="search" name="s"
-                                                placeholder="Nhập từ khóa">
-                                            <div class="btn-search">
-                                                <div class="nav-search-button">
-                                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                                </div>
-                                                <span>Tìm kiếm</span>
-                                            </div>
-                                        </form>
+                    </div>
 
+                    <!-- Mobile Left Elements -->
+                    <div class="flex-col show-for-medium flex-left">
+                        <ul class="mobile-nav nav nav-left ">
+                            <li class="nav-icon has-icon">
+                                <a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay"
+                                    data-color="dark" class="is-small" aria-label="Menu" aria-controls="main-menu"
+                                    aria-expanded="false">
 
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- <li class="header-search">
-                                <div class="nav-search-nuce">
-                                    <div class="nav-search-button">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <form class="search-form" action="/search">
-                                    <span class="nav-search-close-button" tabindex="0">✕</span>
-                                        <div class="nav-search-inner">
-                                            <input class="search-input" type="search" name="s"  placeholder="Nhập từ khóa">
-                                        </div>
-                                    </form>
-                                    <span>Tìm kiếm</span>
-                                </div>
-                            </li> -->
-
-                            <li>
-                                <a class="btn-nav-item" href="http://en-huce.ml:8888">
-                                    <i class="fa fa-globe"></i>
-                                    <span>English</span>
-                                </a>
-                            </li>
-                            <li id="apps-menu">
-                                <a>
-                                    <i class="fa fa-tasks"></i>
-                                    <span class="submenu-indicator"><span
-                                            class="submenu-indicator-chevron"></span></span>
-                                </a> <span>Các ứng
-                                    dụng</span>
-                                <div class="megamenu-panel nav-submenu" style="display: none;">
-                                    <div class="row">
-                                        <div class="col-md-4 ">
-                                            <a href="#" class="text-center">
-                                                <img src="theme1/images/logo/google-calendar.png" alt="">
-                                                <h6 class="">
-                                                    Lịch công tác(QLHC)
-                                                </h6>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 ">
-                                            <a href="#" class="text-center">
-                                                <img src="theme1/images/logo/quan-ly-cong-viec.png" alt="">
-                                                <h6 class="">
-                                                    Quản lý công việc
-                                                </h6>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 ">
-                                            <a href="#" class="text-center">
-                                                <img src="theme1/images/logo/quan-ly-van-ban.png" alt="">
-                                                <h6 class="">
-                                                    Quản lý văn bản
-                                                </h6>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 ">
-                                            <a href="#" class="text-center">
-                                                <img src="theme1/images/logo/quan-ly-sinh-vien.png" alt="">
-                                                <h6 class="">
-                                                    Quản lý sinh viên
-                                                </h6>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 ">
-                                            <a href="#" class="text-center">
-                                                <img src="theme1/images/logo/khao-sat.png" alt="">
-                                                <h6 class="">
-                                                    Khảo sát
-                                                </h6>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 ">
-                                            <a href="#" class="text-center">
-                                                <img src="theme1/images/logo/quan-ly-tai-san.png" alt="">
-                                                <h6 class="">
-                                                    Quản lý tài sản
-                                                </h6>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 ">
-                                            <a href="#" class="text-center">
-                                                <img src="theme1/images/logo/danh-ba.png" alt="">
-                                                <h6 class="">
-                                                    Danh bạ CBVC
-                                                </h6>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <a class="btn-nav-item" href="/auth/login">
-                                    <i class="fa fa-user"></i>
-                                    <span>Đăng nhập</span>
+                                    <i class="icon-menu"></i>
                                 </a>
                             </li>
                         </ul>
-                        <!--nav brand end-->
                     </div>
-                    <div class="nav-overlay-panel"></div>
+
+                    <!-- Left Elements -->
+                    <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+
+                    </div>
+
+                    <!-- Right Elements -->
+                    <div class="flex-col hide-for-medium flex-right">
+                        <ul class="header-nav header-nav-main nav nav-right ">
+                            <li id="menu-item-2369"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2369 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/khai-bao-y-te/" class="nav-top-link">Fanpage</a>
+                            </li>
+                            <li class="header-search header-search-lightbox has-icon">
+                                <a href="#search-lightbox" aria-label="Search" data-open="#search-lightbox"
+                                    data-focus="input.search-field" class="icon primary button round is-small">
+                                    <i class="fa fa-search" aria-hidden="true"></i></a>
+                                <div id="search-lightbox" class="mfp-hide dark text-center algolia-search-box">
+                                    <div class="searchform">
+                                        <div class="flex-row relative">
+                                            <div class="flex-col flex-grow">
+                                                <input type="search" class="search-field mb-0 key-search" name="s"
+                                                    value="" id="s" placeholder="Enter keywords to search">
+                                            </div>
+                                            <div class="flex-col">
+                                                <button type="button"
+                                                    class="ux-search-submit submit-button secondary button icon mb-0"
+                                                    aria-label="Submit">
+                                                    <i class="icon-search"></i> </button>
+                                            </div>
+                                        </div>
+                                        <div class="live-search-results text-left z-top"></div>
+                                    </div>
+                                    <ul id="filter-nav" data-sum="3"
+                                        class="nav filter-nav nav-line-bottom list-site-search">
+                                        <li class="tab-site-all active"><a class="show-all-tab"
+                                                href="javascript:void(0)">All</a></li>
+                                        <li class="tab-site-0 active"><a data-site="0" data-box="search-box-0"
+                                                href="javascript:void(0)">Phòng CTSV </a></li>
+                                        <li class="tab-site-1 active"><a data-site="1" data-box="search-box-1"
+                                                href="javascript:void(0)">Trang chính NTTU</a></li>
+                                        <li class="tab-site-2 active"><a data-site="2" data-box="search-box-2"
+                                                href="javascript:void(0)">Phòng Công tác Sinh viên</a></li>
+                                    </ul>
+                                    <div class="row row-search">
+                                        <div class="search-box-resource search-box-0">
+                                            <h3 class="site-box-0">Phòng CTSV </h3>
+                                            <div class="row pt-half">
+                                                <div class="load-items"></div>
+                                                <div class="box-pagination pagination-site0" data-site="0"></div>
+                                            </div>
+                                        </div>
+                                        <div class="search-box-resource search-box-1">
+                                            <h3 class="site-box-1">Trang chính NTTU</h3>
+                                            <div class="row pt-half">
+                                                <div class="load-items"></div>
+                                                <div class="box-pagination pagination-site1" data-site="1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="search-box-resource search-box-2">
+                                            <h3 class="site-box-2">Phòng Công tác Sinh viên</h3>
+                                            <div class="row pt-half">
+                                                <div class="load-items"></div>
+                                                <div class="box-pagination pagination-site2" data-site="2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile Right Elements -->
+                    <div class="flex-col show-for-medium flex-right">
+                        <ul class="mobile-nav nav nav-right ">
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="wide-nav" class="header-bottom wide-nav hide-for-medium">
+                <div class="flex-row container">
+
+                    <div class="flex-col hide-for-medium flex-left">
+                        <ul class="nav header-nav header-bottom-nav nav-left  nav-line-bottom nav-uppercase">
+                        </ul>
+                    </div>
+
+
+                    <div class="flex-col hide-for-medium flex-right flex-grow">
+                        <ul class="nav header-nav header-bottom-nav nav-right  nav-line-bottom nav-uppercase">
+                            <li id="menu-item-33"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-33 active menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/" aria-current="page" class="nav-top-link">Trang
+                                    chủ</a>
+                            </li>
+                            <li id="menu-item-32"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/gioi-thieu/" class="nav-top-link">Giới thiệu</a>
+                            </li>
+                            <li id="menu-item-3"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31 menu-item-design-default">
+                            <a href="https://ctsv.ntt.edu.vn/thong-bao/" class="nav-top-link">Văn bản - Biểu mẫu </a>
+                        </li>
+                            <li id="menu-item-31"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/thong-bao/" class="nav-top-link">Quy trình quản lí</a>
+                            </li>
+                            <li id="menu-item-26"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 menu-item-design-default">
+                            <a href="https://ctsv.ntt.edu.vn/cuoc-thi-online/" class="nav-top-link">Hành chính online</a>
+                        </li>
+                            <li id="menu-item-2335"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2335 menu-item-design-default">
+                                <a href="/hoat_dong" class="nav-top-link">Hoạt động</a>
+                            </li>
+                    
+                            <li id="menu-item-27"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/lien-he/" class="nav-top-link">Liên hệ</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+
                 </div>
             </div>
-        </section>
-        <!-- top header nav end-->
-        <!-- top header nav end-->
-    </div>
-    <div id="SectionMenu" class="sticky-nav">
 
-        <!-- [Menu1] -->
-
-
-        <!-- header nav start-->
-        <header class="navbar-standerd nav-bar-dark home-header-section" style="">
-            <div class="" style="display: unset !important;">
-                <nav class="navigation ts-main-menu navigation-landscape">
-                    <div class="container container-nuce-news">
-                        <div class="row nav-align-right" style="padding-left: 15px; padding-right: 15px;">
-                            <div class="nav-header">
-                                <div class="nav-header">
-                                    <a class="nav-brand logo-mobile" href="/">
-                                        <img src="theme1/images/logo/logo-mobile.png">
-                                    </a>
-                                </div>
-                                <div id="btn-toggle-menu" class="nav-toggle">
-                                    <span class="label-menu">Menu</span>
-                                </div>
-                            </div>
-
-                            <div id="container-menu" class="nav-menus-wrapper clearfix"
-                                style="transition-property: none;"><span class="nav-menus-wrapper-close-button">✕</span>
-                                <ul class="nav-menu align-to-left">
-                                    <li class="header-search mobile-view" style="border-top: none; display: none;">
-                                        <div class="nav-search">
-                                            <form class="search-form" action="/search" style="display: none;">
-                                                <div class="nav-search-inner">
-                                                    <input class="search-input" type="search" name="s"
-                                                        placeholder="Nhập từ khóa">
-                                                </div>
-                                                <div class="nav-search-button">
-                                                    <input class="btn-submit-form" type="submit" value="Tìm kiếm">
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </li>
-                                    <li class="active">
-                                        <a class="home-icon" href="/">
-                                            <img src="theme1/images/gallery/home1.png">
-                                        </a>
-                                    </li>
-
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Giới thiệu<span
-                                                class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                        <ul class="nav-dropdown nav-submenu" style="right: auto; display: none;">
-                                            <li>
-                                                <a href="detail.html" target="_self">Chức năng nhiệm
-                                                    vụ</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Cơ cấu tổ
-                                                    chức</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Văn bản - biểu mẫu<span
-                                                class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                        <ul class="nav-dropdown nav-submenu" style="right: auto; display: none;">
-                                            <li>
-                                                <a href="detail.html" target="_self">Quy chế - quy
-                                                    định</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Chế độ chính
-                                                    sách </a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Quyết định</a>
-                                                <ul class="nav-dropdown nav-submenu" style="display: none;">
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết
-                                                            định tặng học bổng</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định
-                                                            miễn giảm học phí</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định khen
-                                                            thưởng</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định kỉ luật </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định khác</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Biểu mẫu</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_blank">Quy trình quản
-                                            lý</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Học bổng<span
-                                                class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                        <ul class="nav-dropdown nav-submenu" style="right: auto; display: none;">
-                                            <li>
-                                                <a href="detail.html" target="_blank">Học bổng khuyến khích
-                                                    học tập</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_blank">Học bổng du học</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_blank">Học bổng tài trợ</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Tuyển dụng</a>
-                                    </li>
-
-                                    <li class="">
-                                        <a href="#" target="_self">Cựu sinh viên<span class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="nav-overlay-panel"></div>
-                </nav>
+            <div class="header-bg-container fill">
+                <div class="header-bg-image fill"></div>
+                <div class="header-bg-color fill"></div>
             </div>
-        </header>
-        <!-- header nav end-->
-    </div>
+        </div>
+    </header>
     <div id="render-body">
         
 

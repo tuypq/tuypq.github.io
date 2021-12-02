@@ -86,354 +86,427 @@
 </head>
 
 <body>
-    <div id="SectionHeader">
-        <!-- [Header1] -->
+    <header id="header" class="header has-sticky sticky-jump">
+        <div class="header-wrapper">
+            <div id="masthead" class="header-main nav-dark">
+                <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
 
-        <!-- top header nav start-->
-        <!-- top header nav start-->
-        <section class="header-middle v2">
-            <!--nav top end
-    <div class="announcement-bar">
-        <i class="fa fa-bell" aria-hidden="true"></i><span>
-            Cổng thông tin Trường ĐHXD Hà Nội, giao diện đang trong giai đoạn thử nghiệm mọi góp ý xin gửi về tttt@nuce.edu.vn
-        </span>
-    </div>-->
-            <div class="container container-nuce-news">
-
-                <div class="ts-main-menu logo-pc navigation-landscape" style="height: 100px;">
-                    <div class="row" style="display: block;">
-                        <div class="nav-header">
-                            <a class="nav-brand" href="index.html" style="display: flex;">
-                                <img src="theme1/images/logo/logo_trans.png">
-                                <div class="logo-text">
-                                    <h3 style="
-    margin-bottom: 0px;
-    margin-top: 7px;
-    font-family: myriadpro-semibold;
-    letter-spacing: 0.5px;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-">Phòng Công tác Chính trị và Quản lý Sinh viên</h3>
-                                    <h4 style="
-    font-size: 19px;
-    letter-spacing: 0.5px;
-    font-family: 'myriadpro-semibold';
-">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</h4>
-                                </div>
+                    <!-- Logo -->
+                    <div id="logo" class="flex-col logo">
+                        <!-- Header logo -->
+                        <a href="https://ctsv.ntt.edu.vn/"
+                            title="Phòng Công tác sinh viên – Trường ĐH Nguyễn Tất Thành - Phòng Công tác sinh viên – Trường ĐH Nguyễn Tất Thành"
+                            rel="home">
+                        <img style="margin-right: 10px;width: 60px; height: 60px; float: left;"
+                                src="theme1/images/logo/LOGO_DHXD (1).png"
+                                class="header-logo-dark"
+                                alt="   ">
+                              
+                                <h3 style="
+                                color: #002147;
+                                text-align: left;
+                                margin-bottom: 0px;
+                                padding-top: 10px;
+                                font-family: myriadpro-semibold;
+                                font-size: 13px;
+                                line-height: 20px;
+                                letter-spacing: 0.5px;
+                            ">Phòng Công tác Chính trị và Quản lý Sinh viên</h3>
+                              <h4 style="
+                              text-align: left;color: #002a5c;
+                              font-size: 13px;
+                              line-height: 20px;
+                              letter-spacing: 0.5px;
+                              font-family: 'myriadpro-semibold';
+                          ">TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI</h4>
                             </a>
-                        </div>
-                        <ul class="right-menu align-to-right">
-                            <li class="header-search">
-                                <div class="nav-search-nuce">
-                                    <div class="search-box">
-                                        <form class="search-form" action="/search">
-                                            <input class="search-input" type="search" name="s"
-                                                placeholder="Nhập từ khóa">
-                                            <div class="btn-search">
-                                                <div class="nav-search-button">
-                                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                                </div>
-                                                <span>Tìm kiếm</span>
-                                            </div>
-                                        </form>
+                    </div>
 
+                    <!-- Mobile Left Elements -->
+                    <div class="flex-col show-for-medium flex-left">
+                        <ul class="mobile-nav nav nav-left ">
+                            <li class="nav-icon has-icon">
+                                <a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay"
+                                    data-color="dark" class="is-small" aria-label="Menu" aria-controls="main-menu"
+                                    aria-expanded="false">
 
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- <li class="header-search">
-                                <div class="nav-search-nuce">
-                                    <div class="nav-search-button">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <form class="search-form" action="/search">
-                                    <span class="nav-search-close-button" tabindex="0">✕</span>
-                                        <div class="nav-search-inner">
-                                            <input class="search-input" type="search" name="s"  placeholder="Nhập từ khóa">
-                                        </div>
-                                    </form>
-                                    <span>Tìm kiếm</span>
-                                </div>
-                            </li> -->
-
-                            <li>
-                                <a class="btn-nav-item" href="http://en-huce.ml:8888">
-                                    <i class="fa fa-globe"></i>
-                                    <span>English</span>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a class="btn-nav-item" href="/auth/login">
-                                    <i class="fa fa-user"></i>
-                                    <span>Đăng nhập</span>
+                                    <i class="icon-menu"></i>
                                 </a>
                             </li>
                         </ul>
-                        <!--nav brand end-->
                     </div>
-                    <div class="nav-overlay-panel"></div>
+
+                    <!-- Left Elements -->
+                    <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+
+                    </div>
+
+                    <!-- Right Elements -->
+                    <div class="flex-col hide-for-medium flex-right">
+                        <ul class="header-nav header-nav-main nav nav-right ">
+                            <li id="menu-item-2369"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2369 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/khai-bao-y-te/" class="nav-top-link">Fanpage</a>
+                            </li>
+                            <li class="header-search header-search-lightbox has-icon">
+                                <a href="#search-lightbox" aria-label="Search" data-open="#search-lightbox"
+                                    data-focus="input.search-field" class="icon primary button round is-small">
+                                    <i class="fa fa-search" aria-hidden="true"></i></a>
+                                <div id="search-lightbox" class="mfp-hide dark text-center algolia-search-box">
+                                    <div class="searchform">
+                                        <div class="flex-row relative">
+                                            <div class="flex-col flex-grow">
+                                                <input type="search" class="search-field mb-0 key-search" name="s"
+                                                    value="" id="s" placeholder="Enter keywords to search">
+                                            </div>
+                                            <div class="flex-col">
+                                                <button type="button"
+                                                    class="ux-search-submit submit-button secondary button icon mb-0"
+                                                    aria-label="Submit">
+                                                    <i class="icon-search"></i> </button>
+                                            </div>
+                                        </div>
+                                        <div class="live-search-results text-left z-top"></div>
+                                    </div>
+                                    <ul id="filter-nav" data-sum="3"
+                                        class="nav filter-nav nav-line-bottom list-site-search">
+                                        <li class="tab-site-all active"><a class="show-all-tab"
+                                                href="javascript:void(0)">All</a></li>
+                                        <li class="tab-site-0 active"><a data-site="0" data-box="search-box-0"
+                                                href="javascript:void(0)">Phòng CTSV </a></li>
+                                        <li class="tab-site-1 active"><a data-site="1" data-box="search-box-1"
+                                                href="javascript:void(0)">Trang chính NTTU</a></li>
+                                        <li class="tab-site-2 active"><a data-site="2" data-box="search-box-2"
+                                                href="javascript:void(0)">Phòng Công tác Sinh viên</a></li>
+                                    </ul>
+                                    <div class="row row-search">
+                                        <div class="search-box-resource search-box-0">
+                                            <h3 class="site-box-0">Phòng CTSV </h3>
+                                            <div class="row pt-half">
+                                                <div class="load-items"></div>
+                                                <div class="box-pagination pagination-site0" data-site="0"></div>
+                                            </div>
+                                        </div>
+                                        <div class="search-box-resource search-box-1">
+                                            <h3 class="site-box-1">Trang chính NTTU</h3>
+                                            <div class="row pt-half">
+                                                <div class="load-items"></div>
+                                                <div class="box-pagination pagination-site1" data-site="1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="search-box-resource search-box-2">
+                                            <h3 class="site-box-2">Phòng Công tác Sinh viên</h3>
+                                            <div class="row pt-half">
+                                                <div class="load-items"></div>
+                                                <div class="box-pagination pagination-site2" data-site="2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile Right Elements -->
+                    <div class="flex-col show-for-medium flex-right">
+                        <ul class="mobile-nav nav nav-right ">
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="wide-nav" class="header-bottom wide-nav hide-for-medium">
+                <div class="flex-row container">
+
+                    <div class="flex-col hide-for-medium flex-left">
+                        <ul class="nav header-nav header-bottom-nav nav-left  nav-line-bottom nav-uppercase">
+                        </ul>
+                    </div>
+
+
+                    <div class="flex-col hide-for-medium flex-right flex-grow">
+                        <ul class="nav header-nav header-bottom-nav nav-right  nav-line-bottom nav-uppercase">
+                            <li id="menu-item-33"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-33 active menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/" aria-current="page" class="nav-top-link">Trang
+                                    chủ</a>
+                            </li>
+                            <li id="menu-item-32"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/gioi-thieu/" class="nav-top-link">Giới thiệu</a>
+                            </li>
+                            <li id="menu-item-3"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31 menu-item-design-default">
+                            <a href="https://ctsv.ntt.edu.vn/thong-bao/" class="nav-top-link">Văn bản - Biểu mẫu </a>
+                        </li>
+                            <li id="menu-item-31"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/thong-bao/" class="nav-top-link">Quy trình quản lí</a>
+                            </li>
+                            <li id="menu-item-26"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 menu-item-design-default">
+                            <a href="https://ctsv.ntt.edu.vn/cuoc-thi-online/" class="nav-top-link">Hành chính online</a>
+                        </li>
+                            <li id="menu-item-2335"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2335 menu-item-design-default">
+                                <a href="/hoat_dong" class="nav-top-link">Hoạt động</a>
+                            </li>
+                    
+                            <li id="menu-item-27"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 menu-item-design-default">
+                                <a href="https://ctsv.ntt.edu.vn/lien-he/" class="nav-top-link">Liên hệ</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+
                 </div>
             </div>
-        </section>
-        <!-- top header nav end-->
-        <!-- top header nav end-->
-    </div>
-    <div id="SectionMenu" class="sticky-nav">
 
-        <!-- [Menu1] -->
+            <div class="header-bg-container fill">
+                <div class="header-bg-image fill"></div>
+                <div class="header-bg-color fill"></div>
+            </div>
+        </div>
+    </header>
+    <!-- <div id="SectionMenu" class="sticky-nav"> -->
+
+    <!-- [Menu1] -->
+
+    <div id="render-body">
+        <section class="section" id="section_916325237">
+
+            <div class="section-content relative">
 
 
-        <!-- header nav start-->
-        <header class="navbar-standerd nav-bar-dark home-header-section" style="">
-            <div class="" style="display: unset !important;">
-                <nav class="navigation ts-main-menu navigation-landscape">
-                    <div class="container container-nuce-news">
-                        <div class="row nav-align-right" style="padding-left: 15px; padding-right: 15px;">
-                            <div class="nav-header">
-                                <div class="nav-header">
-                                    <a class="nav-brand logo-mobile" href="/">
-                                        <img src="theme1/images/logo/logo-mobile-ctsv2.png">
-                                    </a>
-                                </div>
-                                <div id="btn-toggle-menu" class="nav-toggle">
-                                    <span class="label-menu">Menu</span>
-                                </div>
-                            </div>
+                <div class="banner has-hover" id="banner-1597681882">
+                    <div class="banner-inner fill">
+                        <div class="banner-bg fill">
+                            <div class="bg fill bg-fill bg-loaded"></div>
 
-                            <div id="container-menu" class="nav-menus-wrapper clearfix"
-                                style="transition-property: none;">
-                                <ul class="nav-menu align-to-left">
-                                    <li class="header-search mobile-view" style="border-top: none; display: none;">
-                                        <div class="nav-search">
-                                            <form class="search-form" action="/search" style="display: none;">
-                                                <div class="nav-search-inner">
-                                                    <input class="search-input" type="search" name="s"
-                                                        placeholder="Nhập từ khóa">
+                        </div>
+                        <div class="banner-layers container">
+                            <div class="fill banner-link"></div>
+                            <div id="text-box-1377029653"
+                                class="text-box banner-layer x50 md-x50 lg-x50 y100 md-y100 lg-y100 res-text">
+                                <div class="text-box-content text ">
+
+                                    <div class="text-inner text-center">
+
+                                        <div class="row align-equal align-center" id="row-1403806152">
+
+                                            <div id="col-1201965391" class="col small-12 large-12">
+                                                <div class="col-inner dark">
+
+
+                                                    <div id="text-2766262893" class="text">
+
+                                                        <h1 class="title-banner-ntt"><strong>Phòng Công tác Sinh
+                                                                viên</strong></h1>
+                                                        <p>Có chức năng tham mưu giúp Hiệu trưởng và tổ chức các hoạt
+                                                            động trong công tác quản lý sinh viên;</p>
+                                                        <p>công tác giáo dục, tuyên truyền, sự kiện, văn hóa, văn nghệ,
+                                                            thể dục thể thao đối với sinh viên;</p>
+                                                        <p>công tác y tế học đường và phối hợp thực hiện các dịch vụ hỗ
+                                                            trợ sinh viên theo quy định.</p>
+
+                                                        <style>
+                                                            #text-2766262893 {
+                                                                text-align: left;
+                                                            }
+                                                        </style>
+                                                    </div>
+
                                                 </div>
-                                                <div class="nav-search-button">
-                                                    <input class="btn-submit-form" type="submit" value="Tìm kiếm">
-                                                </div>
-                                            </form>
+                                            </div>
+
+
                                         </div>
-                                    </li>
-                                    <li class="active">
-                                        <a class="home-icon" href="/">
-                                            <img src="theme1/images/gallery/home1.png">
-                                        </a>
-                                    </li>
+                                        <div class="row align-equal align-center icon-box-row" id="row-569308528">
 
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Giới thiệu<span
-                                                class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                        <ul class="nav-dropdown nav-submenu" style="right: auto; display: none;">
-                                            <li>
-                                                <a href="detail.html" target="_self">Chức năng nhiệm
-                                                    vụ</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Cơ cấu tổ
-                                                    chức</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Văn bản - biểu mẫu<span
-                                                class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                        <ul class="nav-dropdown nav-submenu" style="right: auto; display: none;">
-                                            <li>
-                                                <a href="detail.html" target="_self">Quy chế - quy
-                                                    định</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Chế độ chính
-                                                    sách </a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Quyết định</a>
-                                                <ul class="nav-dropdown nav-submenu" style="display: none;">
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết
-                                                            định tặng học bổng</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định
-                                                            miễn giảm học phí</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định khen
-                                                            thưởng</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định kỉ luật </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="detail.html" target="_self">Quyết định khác</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_self">Biểu mẫu</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_blank">Quy trình quản
-                                            lý</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Học bổng<span
-                                                class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                        <ul class="nav-dropdown nav-submenu" style="right: auto; display: none;">
-                                            <li>
-                                                <a href="detail.html" target="_blank">Học bổng khuyến khích
-                                                    học tập</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_blank">Học bổng du học</a>
-                                            </li>
-                                            <li>
-                                                <a href="detail.html" target="_blank">Học bổng tài trợ</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="detail.html" target="_self">Tuyển dụng</a>
-                                    </li>
+                                            <div id="col-1332211693" class="col medium-3 small-12 large-3">
+                                                <div class="col-inner">
 
-                                    <li class="">
-                                        <a href="#" target="_self">Cựu sinh viên<span class="submenu-indicator"><span
-                                                    class="submenu-indicator-chevron"></span></span></a>
-                                    </li>
-                                </ul>
+
+
+                                                    <div
+                                                        class="icon-box featured-box icon-box-home icon-box-top text-left">
+                                                        <div class="icon-box-img" style="width: 32px">
+                                                            <div class="icon">
+                                                                <div class="icon-inner">
+                                                                    <img width="1" height="1"
+                                                                        src="https://ctsv.ntt.edu.vn/wp-content/uploads/2021/07/ic_baseline-date-range.svg"
+                                                                        class="attachment-medium size-medium" alt=""
+                                                                        loading="lazy">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="icon-box-text last-reset">
+
+                                                            <p class="uppercase">làm việc từ Thứ 2 đến thứ 6</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div id="col-574360924" class="col medium-3 small-12 large-3">
+                                                <div class="col-inner">
+
+
+
+                                                    <div
+                                                        class="icon-box featured-box icon-box-home icon-box-top text-left">
+                                                        <div class="icon-box-img" style="width: 32px">
+                                                            <div class="icon">
+                                                                <div class="icon-inner">
+                                                                    <img width="1" height="1"
+                                                                        src="https://ctsv.ntt.edu.vn/wp-content/uploads/2021/07/ic_twotone-access-time.svg"
+                                                                        class="attachment-medium size-medium" alt=""
+                                                                        loading="lazy">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="icon-box-text last-reset">
+
+                                                            <p class="uppercase">buổi sáng: 07h30 – 12h00</p>
+                                                            <p class="uppercase">buổi Chiều: 13h00 – 16h30</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div id="col-52567333" class="col medium-3 small-12 large-3">
+                                                <div class="col-inner">
+
+
+
+                                                    <div
+                                                        class="icon-box featured-box icon-box-home icon-box-top text-left">
+                                                        <div class="icon-box-img" style="width: 32px">
+                                                            <div class="icon">
+                                                                <div class="icon-inner">
+                                                                    <img width="1" height="1"
+                                                                        src="https://ctsv.ntt.edu.vn/wp-content/uploads/2021/07/ic_twotone-perm-phone-msg.svg"
+                                                                        class="attachment-medium size-medium" alt=""
+                                                                        loading="lazy">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="icon-box-text last-reset">
+
+                                                            <p class="uppercase">liên hệ: 02438697004</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div id="col-496399571" class="col medium-3 small-12 large-3">
+                                                <div class="col-inner">
+
+
+
+                                                    <div
+                                                        class="icon-box featured-box icon-box-home icon-box-top text-left">
+                                                        <div class="icon-box-img" style="width: 32px">
+                                                            <div class="icon">
+                                                                <div class="icon-inner">
+                                                                    <img width="1" height="1"
+                                                                        src="https://ctsv.ntt.edu.vn/wp-content/uploads/2021/07/ic_twotone-mark-email-read.svg"
+                                                                        class="attachment-medium size-medium" alt=""
+                                                                        loading="lazy">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="icon-box-text last-reset">
+
+                                                            <p class="uppercase">ctsv@nuce.edu.vn</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <style>
+                                                #row-569308528>.col>.col-inner {
+                                                    background-color: rgba(255, 255, 255, 0.9);
+                                                }
+                                            </style>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <style>
+                                    #text-box-1377029653 {
+                                        width: 93%;
+                                    }
+
+                                    #text-box-1377029653 .text-box-content {
+                                        font-size: 100%;
+                                    }
+
+                                    @media (min-width:550px) {
+                                        #text-box-1377029653 {
+                                            width: 100%;
+                                        }
+                                    }
+                                </style>
                             </div>
+
                         </div>
                     </div>
-                    <div class="nav-overlay-panel"></div>
-                </nav>
+
+
+                    <style>
+                        #banner-1597681882 {
+                            padding-top: 100vh;
+                        }
+
+                        #banner-1597681882 .bg.bg-loaded {
+                            background-image: url(https://ctsv.ntt.edu.vn/wp-content/uploads/2021/08/banner.jpg);
+                        }
+
+                        #banner-1597681882 .bg {
+                            background-position: top center;
+                        }
+
+                        @media (min-width:550px) {
+                            #banner-1597681882 {
+                                padding-top: 600px;
+                            }
+                        }
+                    </style>
+                </div>
+
+
             </div>
-        </header>
-        <!-- header nav end-->
-    </div>
-    <div id="render-body">
 
-        <div id="SectionHomeSlider">
-            <!-- [HomeSilder1] -->
 
-            <!-- home slider start-->
-            <section class="block-wrapper ts-post-style-4 home-slider-section home-slide-mobile">
-                <div class="" style="position: relative;">
-                    <div id="home-header-slider" class="owl-carousel ts-featured owl-loaded">
-                     
-                      
-                                        <div class="item"
-                                            style="background-image:url(uploads/45281090_2022461867837655_4229482251760435200_o_1541840641285.jpg)">
-                                        </div>
-                                
-                              
-                                        <div class="item"
-                                            style="background-image:url(uploads/45281090_2022461867837655_4229482251760435200_o_1541840641285.jpg)">
-                                        </div>
-                               
-                              
-                                        <div class="item"
-                                            style="background-image:url(uploads/45281090_2022461867837655_4229482251760435200_o_1541840641285.jpg)">
-                                        </div>
-                              
-               
-                                        <div class="item"
-                                            style="background-image:url(uploads/45281090_2022461867837655_4229482251760435200_o_1541840641285.jpg)">
-                                        </div>
-                                 
-                    
-                    </div>
-                </div>
-                <!-- container end-->
-            </section>
-            <!-- home slider end-->
-        </div>
-        <div id="SectionHotTitle">
-            <!-- [HotTitle1] -->
-
-            <!-- hot title start-->
-            <section class="hot-title-section">
-                <div class="container container-nuce-news">
-                    <div id="nuce-news-home-slider" class="owl-carousel owl-loaded">
-
-                                <div class="item ">
-                                    <div class="row">
-                                    <div class="col-md-12 col-xs-12">
-                                        <div class="hot-item">
-                                            <a href="/xep-hang-4-sao-upm-trong-he-thong-upm" target="_blank">
-                                                <div class="hot-image">
-                                                    <img
-                                                        src="uploads/icon-h%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn_1636003690053.jpg">
-                                                </div>
-                                                <div class="hot-description">
-                                                    <h3>HƯỚNG DẪN LÀM THỦ TỤC HÀNH CHÍNH ONLINE</h3>
-                                                    <p class="module line-clamp-4 text-justify">
-                                                        Các em vẫn còn băn khoăn cách làm online GIẤY XÁC NHẬN TẠM HOÃN NGHĨA VỤ QUÂN SỰ, GIẤY VAY VỐN NGÂN HÀNG CHÍNH SÁCH, . . . đúng không?
-                                                        Để đăng ký được NHANH GỌN các em hãy xem HƯỚNG DẪN CHI TIẾT ở dưới đây nhé!
-                                                        Chúc các em thành công
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="item ">
-                                    <div class="row">
-                                    <div class="col-md-12 col-xs-12">
-                                        <div class="hot-item">
-                                            <a href="/kiem-dinh-hceres" target="_blank">
-                                                <div class="hot-image">
-                                                    <img
-                                                        src="uploads/mau-thong-bao_2204184241_1635933888900.png">
-                                                </div>
-                                                <div class="hot-description">
-                                                    <h3>TRA MÃ VẬN ĐƠN CHUYỂN PHÁT NHANH GIẤY XÁC NHẬN</h3>
-                                                    <p class="module line-clamp-4 text-justify">
-                                                        Do dịch bệnh Covid-19, để hỗ trợ sinh viên trong thủ tục hành chính, phòng Công tác Chính trị và Quản lý sinh viên đã tiến hành gửi chuyển phát nhanh các Giấy xác nhận cho sinh viên về địa phương. Các bạn sinh viên đã gửi yêu cầu qua trang Thủ tục hành chính online có thể tra mã vận đơn ở file đính kèm và kiểm tra tình trạng vận chuyển của đơn qua trang: 
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="item ">
-                                    <div class="row">
-                                    <div class="col-md-12 col-xs-12">
-                                        <div class="hot-item">
-                                            <a href="/stce-journal-thuoc-he-thong-aci" target="_blank">
-                                                <div class="hot-image">
-                                                    <img
-                                                        src="uploads/Th%C3%B4ng%20b%C3%A1o%202_1635245125698.jpg">
-                                                </div>
-                                                <div class="hot-description">
-                                                    <h3>THÔNG BÁO VỀ VIỆC  TIẾP NHẬN HỒ SƠ XÉT MIỄN, GIẢM HỌC PHÍ, HỖ TRỢ CHI PHÍ HỌC TẬP, HỖ TRỢ HỌC TẬP SINH VIÊN HỌC KỲ I NĂM HỌC 2021-2022</h3>
-                                                    <p class="module line-clamp-4 text-justify">
-                                                        Nhằm đảm bảo thực hiện các chính sách miễn giảm học phí theo quy định của Nhà nước, nhà trường thông báo về việc tiếp nhận hồ sơ xét miễn, giảm học phí, hỗ trợ chi phí học tập, hỗ trợ học tập năm học 2021-2022, nội dung cụ thể như sau:
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                            
-                        
-
-                    </div>
-                </div>
-            </section>
-            <!-- hot title start-->
-        </div>
+            <style>
+                #section_916325237 {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    min-height: 600px;
+                }
+            </style>
+        </section>
         <div id="SectionQuickLink">
 
             <!-- [QuickLink1] -->
@@ -518,6 +591,529 @@
             </section>
             <!-- quick links end-->
         </div>
+        <section class="block-wrapper pb-4 top-news-2-section pt-lg-2">
+            <div class="container container-nuce-news">
+                <div class="row">
+                    <div class="col-lg-12 col-top-news">
+                        <div id="SectionTopNews">
+
+                            <!-- [TopNews1] -->
+
+                            <div class="ts-grid-style-2">
+                                <div class="ts-title-item bg-red" style="top:8px;">
+                                    <a href="/thong-bao.html">
+                                        <h2>
+                                            <span>Thông báo</span>
+                                        </h2>
+                                    </a>
+                                </div>
+                                <div class="row mb-10 hot-news-section">
+                                    <div class="col-lg-8">
+                                        <div class="ts-overlay-style">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/le-ky-niem-65-nam-dao-tao-55-nam-thanh-lap-truong-cong-bo-quyet-dinh-doi-ten-truong-va-don-nhan-co-thi-dua-cua-chinh-phu">
+                                                        <img class="img-nuce-col-6"
+                                                            src="uploads\mau-thong-bao_2204184241_1638194839105.png" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="overlay-post-content">
+                                                    <div class="post-content">
+                                                        <h3 class="post-title module line-clamp-3" data-toggle="tooltip"
+                                                            data-placement="bottom"
+                                                            title="Lễ kỷ niệm 65 năm đào tạo, 55 năm thành lập trường, công bố Quyết định đổi tên trường và đón nhận Cờ thi đua của Chính phủ">
+                                                            <a href="">
+                                                                THÔNG BÁO ĐĂNG KÝ TIÊM VẮC XIN PHÒNG NGỪA COVID-19 CHO SINH VIÊN ĐANG Ở HÀ NỘI
+                                                            </a>
+                                                        </h3>
+                                                        <span class="post-date-info">
+                                                            <i class="fa fa-calendar"></i>
+                                                            19/11/2021 <i class="fa fa-eye"
+                                                                style="margin-left: 24px;"></i>
+                                                            33
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end item-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <img class="img-nuce-col-3"
+                                                            src="uploads\mau-thong-bao_2204184241_1638194839105.png"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Hội nghị tổng kết công tác Công đoàn năm học 2020-2021 và triển khai nhiệm vụ trọng tâm năm học 2021-2022">
+                                                        <a
+                                                            href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                            THÔNG BÁO VỀ VIỆC  TIẾP NHẬN HỒ SƠ XÉT MIỄN, GIẢM HỌC PHÍ, HỖ TRỢ CHI PHÍ HỌC TẬP, HỖ TRỢ HỌC TẬP SINH VIÊN HỌC KỲ I NĂM HỌC 2021-2022
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        06/11/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        20
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/phien-hop-thu-nhat-hoi-dong-tu-van-xay-dung-chuan-chuong-trinh-dao-tao-khoi-nganh-kien-truc-xay-dung">
+                                                        <img class="img-nuce-col-3"
+                                                            src="uploads\mau-thong-bao_2204184241_1638194839105.png"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Phiên họp thứ nhất Hội đồng tư vấn Xây dựng chuẩn chương trình đào tạo khối ngành Kiến trúc - Xây dựng">
+                                                        <a
+                                                            href="/phien-hop-thu-nhat-hoi-dong-tu-van-xay-dung-chuan-chuong-trinh-dao-tao-khoi-nganh-kien-truc-xay-dung">
+                                                            KẾT QUẢ GIẢI THƯỞNG LOA THÀNH LẦN THỨ 33 - NĂM 2021
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/phien-hop-thu-nhat-hoi-dong-tu-van-xay-dung-chuan-chuong-trinh-dao-tao-khoi-nganh-kien-truc-xay-dung">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        04/11/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        23
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/hoi-nghi-can-bo-vien-chuc-truong-dai-hoc-xay-dung-ha-noi-nam-hoc-2021-2022">
+                                                        <img class="img-nuce-col-3"
+                                                            src="uploads\mau-thong-bao_2204184241_1638194839105.png"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Hội nghị Cán bộ viên chức Trường Đại học Xây dựng Hà Nội năm học 2021-2022">
+                                                        <a
+                                                            href="/hoi-nghi-can-bo-vien-chuc-truong-dai-hoc-xay-dung-ha-noi-nam-hoc-2021-2022">
+                                                            HƯỚNG DẪN LÀM THỦ TỤC HÀNH CHÍNH ONLINE
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/hoi-nghi-can-bo-vien-chuc-truong-dai-hoc-xay-dung-ha-noi-nam-hoc-2021-2022">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        29/10/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        32
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/chung-ket-cuoc-thi-y-tuong-sang-tao-va-khoi-nghiep-sinh-vien-huce-intech-2021">
+                                                        <img class="img-nuce-col-3"
+                                                            src="uploads\mau-thong-bao_2204184241_1638194839105.png"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Chung kết Cuộc thi Ý tưởng Sáng tạo và Khởi nghiệp sinh viên HUCE-InTech 2021">
+                                                        <a
+                                                            href="/chung-ket-cuoc-thi-y-tuong-sang-tao-va-khoi-nghiep-sinh-vien-huce-intech-2021">
+                                                            TRA MÃ VẬN ĐƠN CHUYỂN PHÁT NHANH GIẤY XÁC NHẬN
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/chung-ket-cuoc-thi-y-tuong-sang-tao-va-khoi-nghiep-sinh-vien-huce-intech-2021">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        24/10/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        50
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                </div>
+                                <!-- row end-->
+                                <div class="row">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col end-->
+                    
+                </div>
+                <!-- row end-->
+            </div>
+            <!-- container end-->
+        </section>
+        <section class="block-wrapper pb-4 top-news-2-section pt-lg-2">
+            <div class="container container-nuce-news">
+                <div class="row">
+                    <div class="col-lg-12 col-top-news">
+                        <div id="SectionTopNews">
+
+                            <!-- [TopNews1] -->
+
+                            <div class="ts-grid-style-2">
+                                <div class="ts-title-item bg-red" style="top:8px;">
+                                    <a href="/tin-tuc">
+                                        <h2>
+                                            <span>Tin Tức</span>
+                                        </h2>
+                                    </a>
+                                </div>
+                                <div class="row mb-10 hot-news-section">
+                                    <div class="col-lg-8">
+                                        <div class="ts-overlay-style">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/le-ky-niem-65-nam-dao-tao-55-nam-thanh-lap-truong-cong-bo-quyet-dinh-doi-ten-truong-va-don-nhan-co-thi-dua-cua-chinh-phu">
+                                                        <img class="img-nuce-col-6"
+                                                            src="uploads/logo-chan-trang-24h_1638013572416.png" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="overlay-post-content">
+                                                    <div class="post-content">
+                                                        <h3 class="post-title module line-clamp-3" data-toggle="tooltip"
+                                                            data-placement="bottom"
+                                                            title="Lễ kỷ niệm 65 năm đào tạo, 55 năm thành lập trường, công bố Quyết định đổi tên trường và đón nhận Cờ thi đua của Chính phủ">
+                                                            <a href="">
+                                                                KẾT QUẢ GIẢI THƯỞNG LOA THÀNH LẦN THỨ 33 - NĂM 2021
+                                                            </a>
+                                                        </h3>
+                                                        <span class="post-date-info">
+                                                            <i class="fa fa-calendar"></i>
+                                                            19/11/2021 <i class="fa fa-eye"
+                                                                style="margin-left: 24px;"></i>
+                                                            33
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end item-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <img class="img-nuce-col-3"
+                                                            src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=en&langCode=en&type=Private&currentFolder=%2FTin%20t%E1%BB%A9c%2FHo%E1%BA%A1t%20%C4%91%E1%BB%99ng%20chung%2F2021%2FT11%2F&hash=335d0371ff521a75c92ce7331df5f6429b93ffa3&token=portal-1&encrypt=fA2oIG17tBYFuPOLPlamX3Mp2BQSmyGex9Nmj9kpw1cP2oYFRgJsy5npP65juKwMpBBBjfy0Uq6%252fkPHpCz5hRk25BI783XuhB4Ot2TqSKa93tkNliEjAKXtDqBJKwwq4f1lvc3qZKvquwKIIzAfEQRaRFs93Rts1x2QzUjVDWzVlqBf50DwlHjqjASu6mXTZaDZh%252bSigXzyhii90POzTfpRBNVTGxzkYR5C2Yf5Tbayn%252bwzYMA9toqAuPxO4YViZX5qLreTTw4lUSXTBTHykws5LGFXViRlkEW2XKHzgYXQDs3NUfiUjYq2N5tSLHDGOKxq5xYjBdxHAyglqyiZz6dvm0ZvyBK9g6olQcHOZeuNDrd%252f%252bJaO0CsHJnjNGNhCh2bRp59ND4jMHQrawbfKf1WT9OXymYahhZ1k2klxBPHIKxrdEwX4KrZKwhvecQ8n9KrJzWXdpY5qoKHndGvd6JvvfVU5%252bknowuHO1xR8goDn8vKj1dCw4r%252bdCyI0CIAoB9MZoiax2F1iDF5KiOa%252b4BDEBhTZLHd3rKnCNEggZ7ZbgglN1RlMkLxtSs2Mv6riarW3EGApt3%252fTsYhv3PiColixbHycc5iwm1n9gAjRkoq1v7JWoobXJza0w23H%252fBemIoHInIWYLKImR%252fZrcouF7McuvJDKKg6NqpWHFsZAn46Wykvtf2fslw%252bBxS9jHw1yCHxWfa4Tb%252bW9jbkJ4pkkzwlxnGRyHswd8GIY1cy6G73wTLq0v1nM%252baP8lUSnkwB4AVLZ1gkP5wdnAN313qtqJlA%253d%253d&fileName=65_nam_dao_tao_02.jpg"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Hội nghị tổng kết công tác Công đoàn năm học 2020-2021 và triển khai nhiệm vụ trọng tâm năm học 2021-2022">
+                                                        <a
+                                                            href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                            Thống kê số lượng sinh viên có nhu cầu trong Chương trình
+                                                            "Sóng và máy tính cho em"
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        06/11/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        20
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/phien-hop-thu-nhat-hoi-dong-tu-van-xay-dung-chuan-chuong-trinh-dao-tao-khoi-nganh-kien-truc-xay-dung">
+                                                        <img class="img-nuce-col-3"
+                                                            src="uploads/5-tin-tuc-moi-ma-trader-forex-quan-tam-traderviet-2_1635051127585.png"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Phiên họp thứ nhất Hội đồng tư vấn Xây dựng chuẩn chương trình đào tạo khối ngành Kiến trúc - Xây dựng">
+                                                        <a
+                                                            href="/phien-hop-thu-nhat-hoi-dong-tu-van-xay-dung-chuan-chuong-trinh-dao-tao-khoi-nganh-kien-truc-xay-dung">
+                                                            CẬP NHẬT HÌNH ẢNH VÒNG CHUNG KẾT NUCE - INTECH 2021
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/phien-hop-thu-nhat-hoi-dong-tu-van-xay-dung-chuan-chuong-trinh-dao-tao-khoi-nganh-kien-truc-xay-dung">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        04/11/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        23
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/hoi-nghi-can-bo-vien-chuc-truong-dai-hoc-xay-dung-ha-noi-nam-hoc-2021-2022">
+                                                        <img class="img-nuce-col-3"
+                                                            src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&amp;lang=vi&amp;langCode=vi&amp;type=Private&amp;currentFolder=%2FTin%20t%E1%BB%A9c%2FHo%E1%BA%A1t%20%C4%91%E1%BB%99ng%20chung%2F2021%2FT10%2F&amp;hash=335d0371ff521a75c92ce7331df5f6429b93ffa3&amp;token=portal-1&amp;fileName=%E1%BA%A2nh%20n%E1%BB%81n_10_30_2021_11_31_22_511.jpg"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Hội nghị Cán bộ viên chức Trường Đại học Xây dựng Hà Nội năm học 2021-2022">
+                                                        <a
+                                                            href="/hoi-nghi-can-bo-vien-chuc-truong-dai-hoc-xay-dung-ha-noi-nam-hoc-2021-2022">
+                                                            Hội nghị Cán bộ viên chức Trường Đại học Xây dựng
+                                                            Hà Nội năm học 2021-2022
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/hoi-nghi-can-bo-vien-chuc-truong-dai-hoc-xay-dung-ha-noi-nam-hoc-2021-2022">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        29/10/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        32
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/chung-ket-cuoc-thi-y-tuong-sang-tao-va-khoi-nghiep-sinh-vien-huce-intech-2021">
+                                                        <img class="img-nuce-col-3"
+                                                            src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&amp;lang=vi&amp;langCode=vi&amp;type=Private&amp;currentFolder=%2FTin%20t%E1%BB%A9c%2FHo%E1%BA%A1t%20%C4%91%E1%BB%99ng%20chung%2F2021%2FT10%2F&amp;hash=335d0371ff521a75c92ce7331df5f6429b93ffa3&amp;token=portal-1&amp;id=1851&amp;fileName=172560896_104025308489441_2050986585013759530_n-470x300_10_24_2021_21_57_37_695.jpg"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Chung kết Cuộc thi Ý tưởng Sáng tạo và Khởi nghiệp sinh viên HUCE-InTech 2021">
+                                                        <a
+                                                            href="/chung-ket-cuoc-thi-y-tuong-sang-tao-va-khoi-nghiep-sinh-vien-huce-intech-2021">
+                                                            Chung kết Cuộc thi Ý tưởng Sáng tạo và Khởi nghiệp
+                                                            sinh viên HUCE-InTech 2021
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/chung-ket-cuoc-thi-y-tuong-sang-tao-va-khoi-nghiep-sinh-vien-huce-intech-2021">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        24/10/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        50
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <!-- col end-->
+                                </div>
+                                <!-- row end-->
+                                <div class="row">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col end-->
+                    
+                </div>
+                <!-- row end-->
+            </div>
+            <!-- container end-->
+        </section>
         <div id="SectionBanner">
             <!-- [Banner1] -->
 
@@ -632,43 +1228,57 @@
                                 <div class="ts-title-item bg-red" style="top:8px;">
                                     <a href="/tin-tuc">
                                         <h2>
-                                            <span>Tin tức</span>
+                                            <span>Hoạt động</span>
                                         </h2>
                                     </a>
                                 </div>
                                 <div class="row mb-10 hot-news-section">
-                                    <div class="col-lg-8">
-                                        <div class="ts-overlay-style">
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
                                             <div class="item">
                                                 <div class="ts-post-thumb">
                                                     <a
-                                                        href="/le-ky-niem-65-nam-dao-tao-55-nam-thanh-lap-truong-cong-bo-quyet-dinh-doi-ten-truong-va-don-nhan-co-thi-dua-cua-chinh-phu">
-                                                        <img class="img-nuce-col-6"
-                                                            src="uploads/logo-chan-trang-24h_1638013572416.png"
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <img class="img-nuce-col-3"
+                                                            src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=en&langCode=en&type=Private&currentFolder=%2FTin%20t%E1%BB%A9c%2FHo%E1%BA%A1t%20%C4%91%E1%BB%99ng%20chung%2F2021%2FT11%2F&hash=335d0371ff521a75c92ce7331df5f6429b93ffa3&token=portal-1&encrypt=fA2oIG17tBYFuPOLPlamX3Mp2BQSmyGex9Nmj9kpw1cP2oYFRgJsy5npP65juKwMpBBBjfy0Uq6%252fkPHpCz5hRk25BI783XuhB4Ot2TqSKa93tkNliEjAKXtDqBJKwwq4f1lvc3qZKvquwKIIzAfEQRaRFs93Rts1x2QzUjVDWzVlqBf50DwlHjqjASu6mXTZaDZh%252bSigXzyhii90POzTfpRBNVTGxzkYR5C2Yf5Tbayn%252bwzYMA9toqAuPxO4YViZX5qLreTTw4lUSXTBTHykws5LGFXViRlkEW2XKHzgYXQDs3NUfiUjYq2N5tSLHDGOKxq5xYjBdxHAyglqyiZz6dvm0ZvyBK9g6olQcHOZeuNDrd%252f%252bJaO0CsHJnjNGNhCh2bRp59ND4jMHQrawbfKf1WT9OXymYahhZ1k2klxBPHIKxrdEwX4KrZKwhvecQ8n9KrJzWXdpY5qoKHndGvd6JvvfVU5%252bknowuHO1xR8goDn8vKj1dCw4r%252bdCyI0CIAoB9MZoiax2F1iDF5KiOa%252b4BDEBhTZLHd3rKnCNEggZ7ZbgglN1RlMkLxtSs2Mv6riarW3EGApt3%252fTsYhv3PiColixbHycc5iwm1n9gAjRkoq1v7JWoobXJza0w23H%252fBemIoHInIWYLKImR%252fZrcouF7McuvJDKKg6NqpWHFsZAn46Wykvtf2fslw%252bBxS9jHw1yCHxWfa4Tb%252bW9jbkJ4pkkzwlxnGRyHswd8GIY1cy6G73wTLq0v1nM%252baP8lUSnkwB4AVLZ1gkP5wdnAN313qtqJlA%253d%253d&fileName=65_nam_dao_tao_02.jpg"
                                                             alt="">
                                                     </a>
                                                 </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Hội nghị tổng kết công tác Công đoàn năm học 2020-2021 và triển khai nhiệm vụ trọng tâm năm học 2021-2022">
+                                                        <a
+                                                            href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                            Thống kê số lượng sinh viên có nhu cầu trong Chương trình
+                                                            "Sóng và máy tính cho em"
+                                                        </a>
+                                                    </h3>
 
-                                                <div class="overlay-post-content">
-                                                    <div class="post-content">
-                                                        <h3 class="post-title module line-clamp-3" data-toggle="tooltip"
-                                                            data-placement="bottom"
-                                                            title="Lễ kỷ niệm 65 năm đào tạo, 55 năm thành lập trường, công bố Quyết định đổi tên trường và đón nhận Cờ thi đua của Chính phủ">
-                                                            <a
-                                                                href="">
-                                                                KẾT QUẢ GIẢI THƯỞNG LOA THÀNH LẦN THỨ 33 - NĂM 2021
-                                                            </a>
-                                                        </h3>
-                                                        <span class="post-date-info">
-                                                            <i class="fa fa-calendar"></i>
-                                                            19/11/2021 <i class="fa fa-eye"
-                                                                style="margin-left: 24px;"></i>
-                                                            33
-                                                        </span>
-                                                    </div>
+                                                    <a class="nuce-news-read-more"
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        06/11/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        20
+                                                    </span>
+
                                                 </div>
+
                                             </div>
-                                            <!-- end item-->
+                                            <!-- item end-->
                                         </div>
                                         <!--ts overlay end-->
                                     </div>
@@ -689,7 +1299,57 @@
                                                         title="Hội nghị tổng kết công tác Công đoàn năm học 2020-2021 và triển khai nhiệm vụ trọng tâm năm học 2021-2022">
                                                         <a
                                                             href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
-                                                            Thống kê số lượng sinh viên có nhu cầu trong Chương trình "Sóng và máy tính cho em"
+                                                            Thống kê số lượng sinh viên có nhu cầu trong Chương trình
+                                                            "Sóng và máy tính cho em"
+                                                        </a>
+                                                    </h3>
+
+                                                    <a class="nuce-news-read-more"
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <svg width="30" height="30" viewBox="0 0 50 50" fill="none"
+                                                            xmlns="www.w3.org/2000/svg.html">
+                                                            <path d="M0 0H50V50H0V0Z" fill="#a30713"></path>
+                                                            <path d="M17.2222 25H32.7778" stroke="white"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M25 17.2222L32.7778 24.9999L25 32.7777"
+                                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </a>
+
+                                                    <span class="post-date-info-nuce-news-02">
+                                                        <i class="fa fa-calendar"></i>
+                                                        06/11/2021 <i class="fa fa-eye" style="margin-left: 24px;"></i>
+                                                        20
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- item end-->
+                                        </div>
+                                        <!--ts overlay end-->
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="ts-grid-box ts-grid-content ts-grid-content-1">
+                                            <div class="item">
+                                                <div class="ts-post-thumb">
+                                                    <a
+                                                        href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                        <img class="img-nuce-col-3"
+                                                            src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=en&langCode=en&type=Private&currentFolder=%2FTin%20t%E1%BB%A9c%2FHo%E1%BA%A1t%20%C4%91%E1%BB%99ng%20chung%2F2021%2FT11%2F&hash=335d0371ff521a75c92ce7331df5f6429b93ffa3&token=portal-1&encrypt=fA2oIG17tBYFuPOLPlamX3Mp2BQSmyGex9Nmj9kpw1cP2oYFRgJsy5npP65juKwMpBBBjfy0Uq6%252fkPHpCz5hRk25BI783XuhB4Ot2TqSKa93tkNliEjAKXtDqBJKwwq4f1lvc3qZKvquwKIIzAfEQRaRFs93Rts1x2QzUjVDWzVlqBf50DwlHjqjASu6mXTZaDZh%252bSigXzyhii90POzTfpRBNVTGxzkYR5C2Yf5Tbayn%252bwzYMA9toqAuPxO4YViZX5qLreTTw4lUSXTBTHykws5LGFXViRlkEW2XKHzgYXQDs3NUfiUjYq2N5tSLHDGOKxq5xYjBdxHAyglqyiZz6dvm0ZvyBK9g6olQcHOZeuNDrd%252f%252bJaO0CsHJnjNGNhCh2bRp59ND4jMHQrawbfKf1WT9OXymYahhZ1k2klxBPHIKxrdEwX4KrZKwhvecQ8n9KrJzWXdpY5qoKHndGvd6JvvfVU5%252bknowuHO1xR8goDn8vKj1dCw4r%252bdCyI0CIAoB9MZoiax2F1iDF5KiOa%252b4BDEBhTZLHd3rKnCNEggZ7ZbgglN1RlMkLxtSs2Mv6riarW3EGApt3%252fTsYhv3PiColixbHycc5iwm1n9gAjRkoq1v7JWoobXJza0w23H%252fBemIoHInIWYLKImR%252fZrcouF7McuvJDKKg6NqpWHFsZAn46Wykvtf2fslw%252bBxS9jHw1yCHxWfa4Tb%252bW9jbkJ4pkkzwlxnGRyHswd8GIY1cy6G73wTLq0v1nM%252baP8lUSnkwB4AVLZ1gkP5wdnAN313qtqJlA%253d%253d&fileName=65_nam_dao_tao_02.jpg"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-content" style="z-index: unset;">
+                                                    <h3 class="post-title-nuce-news-02 module line-clamp-4"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="Hội nghị tổng kết công tác Công đoàn năm học 2020-2021 và triển khai nhiệm vụ trọng tâm năm học 2021-2022">
+                                                        <a
+                                                            href="/hoi-nghi-tong-ket-cong-tac-cong-doan-nam-hoc-2020-2021-va-trien-khai-nhiem-vu-trong-tam-nam-hoc-2021-2022">
+                                                            Thống kê số lượng sinh viên có nhu cầu trong Chương trình
+                                                            "Sóng và máy tính cho em"
                                                         </a>
                                                     </h3>
 
@@ -891,7 +1551,7 @@
                                         <a class="active ts-title-item bg-gray" href="#tab1" aria-controls="home"
                                             role="tab" data-toggle="tab">
                                             <h2>
-                                                <span>THÔNG BÁO</span>
+                                                <span>Hỗ trợ sinh viên</span>
                                             </h2>
                                         </a>
                                     </li>
@@ -905,9 +1565,7 @@
                                             <!-- [TwoTabTabLeft1] -->
 
                                             <div class="post-content media" style="z-index: unset;">
-                                                <div class="list-style-dot-left">
-                                                    <img src="theme1/images/icon/list-dot.svg">
-                                                </div>
+                                               
 
                                                 <div class="media-body-home align-self-center">
                                                     <h4 class="post-title-nuce-news-thongbao module line-clamp-2"
@@ -924,10 +1582,7 @@
                                                 </div>
                                             </div>
                                             <div class="post-content media" style="z-index: unset;">
-                                                <div class="list-style-dot-left">
-                                                    <img src="theme1/images/icon/list-dot.svg">
-                                                </div>
-
+                                              
                                                 <div class="media-body-home align-self-center">
                                                     <h4 class="post-title-nuce-news-thongbao module line-clamp-2"
                                                         data-toggle="tooltip" data-placement="bottom"
@@ -944,9 +1599,7 @@
                                                 </div>
                                             </div>
                                             <div class="post-content media" style="z-index: unset;">
-                                                <div class="list-style-dot-left">
-                                                    <img src="theme1/images/icon/list-dot.svg">
-                                                </div>
+                                                
 
                                                 <div class="media-body-home align-self-center">
                                                     <h4 class="post-title-nuce-news-thongbao module line-clamp-2"
@@ -965,9 +1618,7 @@
                                                 </div>
                                             </div>
                                             <div class="post-content media" style="z-index: unset;">
-                                                <div class="list-style-dot-left">
-                                                    <img src="theme1/images/icon/list-dot.svg">
-                                                </div>
+                                               
 
                                                 <div class="media-body-home align-self-center">
                                                     <h4 class="post-title-nuce-news-thongbao module line-clamp-2"
@@ -984,10 +1635,7 @@
                                                 </div>
                                             </div>
                                             <div class="post-content media" style="z-index: unset;">
-                                                <div class="list-style-dot-left">
-                                                    <img src="theme1/images/icon/list-dot.svg">
-                                                </div>
-
+                                              
                                                 <div class="media-body-home align-self-center">
                                                     <h4 class="post-title-nuce-news-thongbao module line-clamp-2"
                                                         data-toggle="tooltip" data-placement="bottom"
@@ -1004,10 +1652,7 @@
                                                 </div>
                                             </div>
                                             <div class="post-content media" style="z-index: unset;">
-                                                <div class="list-style-dot-left">
-                                                    <img src="theme1/images/icon/list-dot.svg">
-                                                </div>
-
+                                             
                                                 <div class="media-body-home align-self-center">
                                                     <h4 class="post-title-nuce-news-thongbao module line-clamp-2"
                                                         data-toggle="tooltip" data-placement="bottom"
@@ -1194,6 +1839,119 @@
             <section class="block-wrapper mb-30 hot-topics-heighlight r-d-4-section ">
                 <div class="container container-nuce-news">
                     <div class="home-post-section row">
+                        <!-- col end-->
+                        <div class="col-lg-6 col-top-news">
+                            <div>
+
+                                <!-- [TwoTabSideBar1] -->
+                                <!-- Nav tabs -->
+                                <div class="ts-title-item bg-red " style="top:8px; ">
+                                    <a href="/tin-tuc ">
+                                        <h2>
+                                            <span>Khởi nghiệp - hướng nghiệp</span>
+                                        </h2>
+                                    </a>
+                                </div>
+                                <!-- right side start-->
+                                <div class="widgets post-list-item right-side-bar2-section ">
+
+                                    <div id="start-up-slider" class="owl-carousel ts-featured owl-loaded">
+                                        <!-- Item 2 end -->
+                                        <!-- Item 1 end -->
+
+
+                                        <div class="item">
+                                            <div class="col-md-12 col-xs-10">
+                                                <div class="hot-item">
+                                                    <a href="/xep-hang-4-sao-upm-trong-he-thong-upm" target="_blank">
+                                                        <div class="hot-image">
+                                                            <img
+                                                                src="uploads/5-tin-tuc-moi-ma-trader-forex-quan-tam-traderviet-2_1635051127585.png">
+                                                        </div>
+                                                        <div class="hot-description">
+                                                            <h3> CẬP NHẬT HÌNH ẢNH VÒNG CHUNG KẾT NUCE - INTECH 2021
+                                                            </h3>
+                                                            <p class="module line-clamp-4 text-justify">
+                                                                Ngay lúc này, Vòng chung kết Cuộc thi Sáng tạo vào Khởi
+                                                                nghiệp Nuce - InTech 2021 đã chính thức diễn ra. Giờ
+                                                                đây, không khí cuộc thi đang trở nên sôi động hơn bao
+                                                                giờ hết khi các nhóm thí sinh cũng đã chuẩn bị sẵn sàng
+                                                                cho phần thi của mình . Ban tổ chức&nbsp;vô cùng vui
+                                                                mừng khi chào đón sự hiện diện của các thầy cô, các vị
+                                                                cố vấn và Ban giám khảo cùng các nhóm thí sinh của cuộc
+                                                                thi.&nbsp;
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="item">
+                                            <div class="col-md-12 col-xs-10">
+                                                <div class="hot-item">
+                                                    <a href="/xep-hang-4-sao-upm-trong-he-thong-upm" target="_blank">
+                                                        <div class="hot-image">
+                                                            <img src="uploads/logo-chan-trang-24h_1638013572416.png">
+                                                        </div>
+                                                        <div class="hot-description">
+                                                            <h3> 10 Ý TƯỞNG ĐỘC ĐÁO BƯỚC VÀO CHUNG KẾT CUỘC THI " Ý
+                                                                TƯỞNG SÁNG TẠO VÀ KHỞI NGHIỆP SINH VIÊN"</h3>
+                                                            <p class="module line-clamp-4 text-justify">
+                                                                Cuộc thi "Ý tưởng sáng tạo và khởi nghiệp sinh viên
+                                                                trường Đại học Xây dựng Hà Nội - NUCE INTECH 2021" được
+                                                                phát động vào tháng 4/2021. Năm đầu tiên tổ chức cuộc
+                                                                thi, Nhà trường mong muốn tìm kiếm những ý tưởng khởi
+                                                                nghiệp sáng tạo của sinh viên đang học tập tại trường.
+                                                                Từ đó ươm mầm, đồng hành và kết nối ý tưởng của sinh
+                                                                viên với các startup thành công, nhằm giúp các em tiếp
+                                                                tục hoàn thiện ý tưởng, hướng đến mục tiêu hiện thực hóa
+                                                                trong tương lai.
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="item">
+                                            <div class="col-md-12 col-xs-10">
+                                                <div class="hot-item">
+                                                    <a href="/xep-hang-4-sao-upm-trong-he-thong-upm" target="_blank">
+                                                        <div class="hot-image ">
+                                                            <img
+                                                                src="uploads/5-tin-tuc-moi-ma-trader-forex-quan-tam-traderviet-2_1635051127585.png">
+                                                        </div>
+                                                        <div class="hot-description">
+                                                            <h3>THÔNG BÁO CHƯƠNG TRÌNH HỌC BỔNG VOCO CENTER</h3>
+                                                            <p class="module line-clamp-4 text-justify">
+                                                                VOCO Center (Vietnam Online Career Orientation) là dự án
+                                                                Trung tâm Đào tạo Hướng nghiệp Trực tuyến đầu tiên ở
+                                                                Việt Nam, hoạt động dựa trên việc kết nối với các chuyên
+                                                                gia trong ngành, nghề và các doanh nghiệp để chia sẻ
+                                                                thông tin cập nhật của thị trường, kỹ năng thực chiến
+                                                                doanh nghiệp cần, câu chuyện kinh nghiệm thực tiễn của
+                                                                những người đi trước đến HSSV giúp các em bước đầu định
+                                                                hướng bản thân, xác lập kế hoạch sự nghiệp.
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+
+                                <!-- right side start-->
+                            </div>
+                        </div>
                         <div class="col-lg-6 col-top-news">
                             <div>
 
@@ -1223,9 +1981,16 @@
                                                                     src="uploads/Tuy%E1%BB%83n%20d%E1%BB%A5ng_1635826591416.jpg">
                                                             </div>
                                                             <div class="hot-description">
-                                                                <h3> Công ty TNHH MTV Tư vấn thiết kế và đầu tư xây dựng - Bộ Quốc phòng tuyển dụng</h3>
+                                                                <h3> Công ty TNHH MTV Tư vấn thiết kế và đầu tư xây dựng
+                                                                    - Bộ Quốc phòng tuyển dụng</h3>
                                                                 <p class="module line-clamp-4 text-justify">
-                                                                    Công ty TNHH một thành viên Tư vấn thiết kế và Đầu tư xây dựng - Bộ Quốc phòng (DCCD) là doanh nghiệp trực thuộc Bộ Quốc phòng. Trải qua 66 năm xây dựng và phát triển, bằng những đóng góp to lớn cho ngành xây dựng của Quân đội và đất nước, DCCD là đơn vị tư vấn đầu ngành của Bộ Quốc phòng và là một trong những&nbsp;đơn vị tư vấn lớn của cả nước.
+                                                                    Công ty TNHH một thành viên Tư vấn thiết kế và Đầu
+                                                                    tư xây dựng - Bộ Quốc phòng (DCCD) là doanh nghiệp
+                                                                    trực thuộc Bộ Quốc phòng. Trải qua 66 năm xây dựng
+                                                                    và phát triển, bằng những đóng góp to lớn cho ngành
+                                                                    xây dựng của Quân đội và đất nước, DCCD là đơn vị tư
+                                                                    vấn đầu ngành của Bộ Quốc phòng và là một trong
+                                                                    những&nbsp;đơn vị tư vấn lớn của cả nước.
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -1244,9 +2009,15 @@
                                                                     src="uploads/Job-Fair-featured-image_1635753026828.jpg">
                                                             </div>
                                                             <div class="hot-description">
-                                                                <h3> [ONLINE] Sự kiện kết nối doanh nghiệp Nhật Bản & ứng viên Việt Nam thường niên sắp quay trở lại vào ngày 6/11 tới !</h3>
+                                                                <h3> [ONLINE] Sự kiện kết nối doanh nghiệp Nhật Bản &
+                                                                    ứng viên Việt Nam thường niên sắp quay trở lại vào
+                                                                    ngày 6/11 tới !</h3>
                                                                 <p class="module line-clamp-4 text-justify">
-                                                                    Hiện nay, số lượng ứng viên mong muốn tìm kiếm việc làm tại các doanh nghiệp Nhật Bản rất nhiều nhưng không nhiều bạn nắm được những quy tắc, kỹ năng khi đi phỏng vấn cũng như những yêu cầu, những điểm quan trọng mà các doanh nghiệp Nhật mong muốn.
+                                                                    Hiện nay, số lượng ứng viên mong muốn tìm kiếm việc
+                                                                    làm tại các doanh nghiệp Nhật Bản rất nhiều nhưng
+                                                                    không nhiều bạn nắm được những quy tắc, kỹ năng khi
+                                                                    đi phỏng vấn cũng như những yêu cầu, những điểm quan
+                                                                    trọng mà các doanh nghiệp Nhật mong muốn.
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -1261,13 +2032,17 @@
                                                         <a href="/xep-hang-4-sao-upm-trong-he-thong-upm"
                                                             target="_blank">
                                                             <div class="hot-image">
-                                                                <img
-                                                                    src="uploads/ferroli-tuyen-dung_1633507177657.png">
+                                                                <img src="uploads/ferroli-tuyen-dung_1633507177657.png">
                                                             </div>
                                                             <div class="hot-description">
-                                                                <h3> BUỔI HỌC CÁCH VIẾT CV VÀ LƯU Ý KHI PHỎNG VẤN VỚI NHÀ TUYỂN DỤNG NHẬT BẢN</h3>
+                                                                <h3> BUỔI HỌC CÁCH VIẾT CV VÀ LƯU Ý KHI PHỎNG VẤN VỚI
+                                                                    NHÀ TUYỂN DỤNG NHẬT BẢN</h3>
                                                                 <p class="module line-clamp-4 text-justify">
-                                                                    Hiện nay, số lượng ứng viên mong muốn tìm kiếm việc làm tại các doanh nghiệp Nhật Bản rất nhiều nhưng không nhiều bạn nắm được những quy tắc, kỹ năng khi đi phỏng vấn cũng như những yêu cầu, những điểm quan trọng mà các doanh nghiệp Nhật mong muốn.
+                                                                    Hiện nay, số lượng ứng viên mong muốn tìm kiếm việc
+                                                                    làm tại các doanh nghiệp Nhật Bản rất nhiều nhưng
+                                                                    không nhiều bạn nắm được những quy tắc, kỹ năng khi
+                                                                    đi phỏng vấn cũng như những yêu cầu, những điểm quan
+                                                                    trọng mà các doanh nghiệp Nhật mong muốn.
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -1282,100 +2057,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- col end-->
-                        <div class="col-lg-6 col-top-news">
-                            <div>
-
-                                <!-- [TwoTabSideBar1] -->
-                                <!-- Nav tabs -->
-                                <div class="ts-title-item bg-red " style="top:8px; ">
-                                    <a href="/tin-tuc ">
-                                        <h2>
-                                            <span>Khởi nghiệp - hướng nghiệp</span>
-                                        </h2>
-                                    </a>
-                                </div>
-                                <!-- right side start-->
-                                <div class="widgets post-list-item right-side-bar2-section ">
-
-                                    <div id="start-up-slider" class="owl-carousel ts-featured owl-loaded">
-                                        <!-- Item 2 end -->
-                                        <!-- Item 1 end -->
-
-
-                                        <div class="item">
-                                            <div class="col-md-12 col-xs-10">
-                                                <div class="hot-item">
-                                                    <a href="/xep-hang-4-sao-upm-trong-he-thong-upm"
-                                                        target="_blank">
-                                                        <div class="hot-image">
-                                                            <img
-                                                                src="uploads/5-tin-tuc-moi-ma-trader-forex-quan-tam-traderviet-2_1635051127585.png">
-                                                        </div>
-                                                        <div class="hot-description">
-                                                            <h3> CẬP NHẬT HÌNH ẢNH VÒNG CHUNG KẾT NUCE - INTECH 2021
-                                                            </h3>
-                                                            <p class="module line-clamp-4 text-justify">
-                                                                Ngay lúc này, Vòng chung kết Cuộc thi Sáng tạo vào Khởi nghiệp Nuce - InTech 2021 đã chính thức diễn ra. Giờ đây, không khí cuộc thi đang trở nên sôi động hơn bao giờ hết khi các nhóm thí sinh cũng đã chuẩn bị sẵn sàng cho phần thi của mình . Ban tổ chức&nbsp;vô cùng vui mừng khi chào đón sự hiện diện của các thầy cô, các vị cố vấn và Ban giám khảo cùng các nhóm thí sinh của cuộc thi.&nbsp;
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="item">
-                                            <div class="col-md-12 col-xs-10">
-                                                <div class="hot-item">
-                                                    <a href="/xep-hang-4-sao-upm-trong-he-thong-upm"
-                                                        target="_blank">
-                                                        <div class="hot-image">
-                                                            <img
-                                                                src="uploads/logo-chan-trang-24h_1638013572416.png">
-                                                        </div>
-                                                        <div class="hot-description">
-                                                            <h3> 10 Ý TƯỞNG ĐỘC ĐÁO BƯỚC VÀO CHUNG KẾT CUỘC THI " Ý TƯỞNG SÁNG TẠO VÀ KHỞI NGHIỆP SINH VIÊN"</h3>
-                                                            <p class="module line-clamp-4 text-justify">
-                                                                Cuộc thi "Ý tưởng sáng tạo và khởi nghiệp sinh viên trường Đại học Xây dựng Hà Nội - NUCE INTECH 2021" được phát động vào tháng 4/2021. Năm đầu tiên tổ chức cuộc thi, Nhà trường mong muốn tìm kiếm những ý tưởng khởi nghiệp sáng tạo của sinh viên đang học tập tại trường. Từ đó ươm mầm, đồng hành và kết nối ý tưởng của sinh viên với các startup thành công, nhằm giúp các em tiếp tục hoàn thiện ý tưởng, hướng đến mục tiêu hiện thực hóa trong tương lai.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="item">
-                                            <div class="col-md-12 col-xs-10">
-                                                <div class="hot-item">
-                                                    <a href="/xep-hang-4-sao-upm-trong-he-thong-upm"
-                                                        target="_blank">
-                                                        <div class="hot-image ">
-                                                            <img
-                                                                src="uploads/5-tin-tuc-moi-ma-trader-forex-quan-tam-traderviet-2_1635051127585.png">
-                                                        </div>
-                                                        <div class="hot-description">
-                                                            <h3>THÔNG BÁO CHƯƠNG TRÌNH HỌC BỔNG VOCO CENTER</h3>
-                                                            <p class="module line-clamp-4 text-justify">
-                                                                VOCO Center (Vietnam Online Career Orientation) là dự án Trung tâm Đào tạo Hướng nghiệp Trực tuyến đầu tiên ở Việt Nam, hoạt động dựa trên việc kết nối với các chuyên gia trong ngành, nghề và các doanh nghiệp để chia sẻ thông tin cập nhật  của thị trường, kỹ năng thực chiến doanh nghiệp cần, câu chuyện kinh nghiệm thực tiễn của những người đi trước đến HSSV giúp các em bước đầu định hướng bản thân, xác lập kế hoạch sự nghiệp.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        
-
-
-                                    </div>
-                                </div>
-
-                                <!-- right side start-->
                             </div>
                         </div>
                     </div>
@@ -1393,75 +2074,81 @@
             <section class="home-ads-section ">
                 <div class="container container-nuce-news ">
                     <div id="nuce-ads-slider" class="owl-carousel owl-loaded ">
-                    
-                                <div class="item" >
-                                    <div class="col-md-12 col-xs-10 ">
-                                        <div class="hot-item ">
-                                            <a href="# " target="_self ">
-                                                <div class="hot-image ">
-                                                    <img
-                                                        src="uploads/Logo%20Viglacera_1513883881587.png ">
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                                <div class="item" >
-                                    <div class="col-md-12 col-xs-10 ">
-                                        <div class="hot-item ">
-                                            <a href="# " target="_self ">
-                                                <div class="hot-image ">
-                                                    <img
-                                                        src="uploads/t%E1%BA%A3i%20xu%E1%BB%91ng_1513883907133.png">
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="item"  >
-                                    <div class="col-md-12 col-xs-10 ">
-                                        <div class="hot-item ">
-                                            <a href="# " target="_self ">
-                                                <div class="hot-image ">
-                                                    <img
-                                                        src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=vi&langCode=vi&type=Private&currentFolder=%2FIconAds%2F&hash=ea8d60299e82343398f8ef2451c2b22b3c8cc8c6&token=portal-1&fileName=dt3.jpg">
-                                                </div>
-                                            </a>
+                        <div class="item">
+                            <div class="col-md-12 col-xs-10 ">
+                                <div class="hot-item ">
+                                    <a href="# " target="_self ">
+                                        <div class="hot-image ">
+                                            <img src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=vi&langCode=vi&type=Private&currentFolder=%2FIconAds%2F&hash=ea8d60299e82343398f8ef2451c2b22b3c8cc8c6&token=portal-1&fileName=dt1.jpg">
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div class="item" >
-                                    <div class="col-md-12 col-xs-10 ">
-                                        <div class="hot-item ">
-                                            <a href="# " target="_self ">
-                                                <div class="hot-image ">
-                                                    <img
-                                                        src="uploads/kenh14-vn_1513883967702.jpg">
-                                                </div>
-                                            </a>
+                        <div class="item">
+                            <div class="col-md-12 col-xs-10 ">
+                                <div class="hot-item ">
+                                    <a href="# " target="_self ">
+                                        <div class="hot-image ">
+                                            <img src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=vi&langCode=vi&type=Private&currentFolder=%2FIconAds%2F&hash=ea8d60299e82343398f8ef2451c2b22b3c8cc8c6&token=portal-1&fileName=dt8.jpg">
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
-                               
-                                
-                                <div class="item" >
-                                    <div class="col-md-12 col-xs-10 ">
-                                        <div class="hot-item ">
-                                            <a href="# " target="_self ">
-                                                <div class="hot-image ">
-                                                    <img
-                                                        src="uploads/social_square_1513883994641.png">
-                                                </div>
-                                            </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-md-12 col-xs-10 ">
+                                <div class="hot-item ">
+                                    <a href="# " target="_self ">
+                                        <div class="hot-image ">
+                                            <img
+                                                src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=vi&langCode=vi&type=Private&currentFolder=%2FIconAds%2F&hash=ea8d60299e82343398f8ef2451c2b22b3c8cc8c6&token=portal-1&fileName=dt3.jpg">
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
-                                
-                        
-                        
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-md-12 col-xs-10 ">
+                                <div class="hot-item ">
+                                    <a href="# " target="_self ">
+                                        <div class="hot-image ">
+                                            <img src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=vi&langCode=vi&type=Private&currentFolder=%2FIconAds%2F&hash=ea8d60299e82343398f8ef2451c2b22b3c8cc8c6&token=portal-1&fileName=dt4.jpg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="col-md-12 col-xs-10 ">
+                                <div class="hot-item ">
+                                    <a href="# " target="_self ">
+                                        <div class="hot-image ">
+                                            <img src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=vi&langCode=vi&type=Private&currentFolder=%2FIconAds%2F&hash=ea8d60299e82343398f8ef2451c2b22b3c8cc8c6&token=portal-1&fileName=dt5%20(1).jpg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-md-12 col-xs-10 ">
+                                <div class="hot-item ">
+                                    <a href="# " target="_self ">
+                                        <div class="hot-image ">
+                                            <img src="https://image.huce.edu.vn/ckfinder/connector?command=Proxy&lang=vi&langCode=vi&type=Private&currentFolder=%2FIconAds%2F&hash=ea8d60299e82343398f8ef2451c2b22b3c8cc8c6&token=portal-1&fileName=dt7.jpg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -1550,6 +2237,54 @@
                 </div>
             </footer>
         </section>
+        <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+            <div class="sidebar-menu no-scrollbar ">
+                <ul class="nav nav-sidebar nav-vertical nav-uppercase">
+                    <li class="header-search-form search-form html relative has-icon">
+            <div class="header-search-form-wrapper">
+                <div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://ctsv.ntt.edu.vn/" role="search">
+                <div class="flex-row relative">
+                    <div class="flex-col flex-grow">
+                          <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Tìm kiếm…">
+                    <input type="hidden" name="post_type[]" value="goc_sinh_vien">
+                    <input type="hidden" name="post_type[]" value="post">
+                    <input type="hidden" name="post_type[]" value="thuc_tap">
+                    </div>
+                    <div class="flex-col">
+                        <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+                            <i class="icon-search"></i>				</button>
+                    </div>
+                </div>
+            <div class="live-search-results text-left z-top"></div>
+        <input type="hidden" name="lang" value="vi"></form>
+        </div>	</div>
+        </li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-33"><a href="https://ctsv.ntt.edu.vn/" aria-current="page">Trang chủ</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="https://ctsv.ntt.edu.vn/gioi-thieu/">Giới thiệu</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://ctsv.ntt.edu.vn/thong-bao/">Thông báo</a></li>
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2335"><a href="/hoat_dong">Hoạt động</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://ctsv.ntt.edu.vn/goc-sinh-vien/">Góc sinh viên</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://ctsv.ntt.edu.vn/clb-doi-nhom/">CLB – Đội –  Nhóm</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://ctsv.ntt.edu.vn/lien-he/">Liên hệ</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://ctsv.ntt.edu.vn/cuoc-thi-online/">Cuộc thi online</a></li>
+        <li class="html header-button-1">
+            <div class="header-button">
+            <a href="tel:19002039" class="button plain is-outline is-small">
+            <span>1900 2039</span>
+          </a>
+            </div>
+        </li>
+        
+        
+        <li class="html header-button-2">
+            <div class="header-button">
+            <a href="" class="button plain is-outline">
+            <span>ntt@ntt.edu.vn</span>
+          </a>
+            </div>
+        </li>
+                </ul>
+            </div>
+        </div>
         <!-- footer end-->
 
 
