@@ -12193,6 +12193,9 @@ html {
         overflow: auto;
         -webkit-overflow-scrolling: touch;
     }
+    .icon-box-row .col-inner p {
+        padding-left: 10px;
+    }
 
 }
 .header-wrapper.stuck, .header-shadow .header-wrapper, .layout-shadow #wrapper {
