@@ -210,7 +210,7 @@
 .logo-text {
     /* height: 80px;  */
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-content {
@@ -345,7 +345,7 @@
 .social-link {
     margin-right: 20px;
     width: 120px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .social-link>p {
@@ -998,7 +998,7 @@
 
 .mobile-app {
     width: 230px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .home-header-section .nav-menu>li .nav-dropdown li a {

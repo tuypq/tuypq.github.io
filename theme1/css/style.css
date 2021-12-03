@@ -518,7 +518,7 @@ tr th {
 }
 
 .hot-description p {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 24px;
     padding-top: 24px;
@@ -732,7 +732,7 @@ tr th {
 .footer-logo-side p {
     font-size: 13px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     color: #ffffff;
     margin-top: 22px;
     margin-bottom: 0px;
@@ -12181,7 +12181,7 @@ html {
     line-height: 1;
 }
 .title-banner-ntt {
-    font-size: 48px !important;
+    font-size: 35px !important;
 }
 @media (max-width: 549px){
     .icon-box-home {

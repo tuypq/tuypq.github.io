@@ -229,10 +229,10 @@ $(function ($) {
    if ($('#nuce-news-home-slider').length > 0) {
     $('#nuce-news-home-slider').owlCarousel({
         loop: true,
-        items: 3,
+        items: 5,
         dots: false,
         nav: true,
-        autoplayTimeout: 10000,
+        autoplayTimeout: 2000,
         autoplay: true,
         animateOut: 'slideOutLeft',
         autoplayHoverPause: true,
