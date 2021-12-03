@@ -9244,8 +9244,8 @@ table td {
 }
 #logo {
     position: absolute;
-    left: -95px !important;
-    width: 400px!important;
+    left: -5px !important;
+    width: 300px!important;
     top: 50%;
 }
 .logo-left .logo {
@@ -9264,7 +9264,6 @@ table td {
     display: block;
     color: #446084;
     font-size: 32px;
-    text-transform: uppercase;
     font-weight: bolder;
     margin: 0;
 }
@@ -11640,7 +11639,6 @@ html {
     display: block;
     color: #446084;
     font-size: 32px;
-    text-transform: uppercase;
     font-weight: bolder;
     margin: 0;
 }
