@@ -942,3 +942,13 @@ if ($('#home-banner').length > 0) {
 }
 
 $('iframe').css('max-width', '100%');
+
+$('.open-menu').click(function(){
+    $('#main-menu').css('display','block')
+})
+$('.mfp-container').click(function(){
+    $('#main-menu').css('display','none')
+})
+$('.mfp-close').click(function(){
+    $('#main-menu').css('display','none')
+})
